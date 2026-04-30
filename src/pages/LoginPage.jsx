@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function LoginPage({ onLogin, onBack }) {
-  const [email, setEmail] = useState("maya.reyes@school.edu");
+  const [email, setEmail] = useState("cyruz@neo.school.edu");
   const [password, setPassword] = useState("••••••••••");
   const [keep, setKeep] = useState(true);
 
@@ -10,9 +10,9 @@ export default function LoginPage({ onLogin, onBack }) {
       {/* Nav */}
       <nav className="flex items-center justify-between px-10 py-4">
         <button onClick={onBack} className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-[#2d7a5e] rounded-lg flex items-center justify-center text-white text-sm">🎓</div>
+          <div className="w-8 h-8 bg-[#8b7a6a] rounded-lg flex items-center justify-center text-white text-sm">🎓</div>
           <div>
-            <div className="font-bold text-gray-900 text-sm leading-tight">Verdant</div>
+            <div className="font-bold text-gray-900 text-sm leading-tight">SILID LMS</div>
             <div className="text-gray-400 text-xs">Student Portal</div>
           </div>
         </button>
@@ -20,7 +20,7 @@ export default function LoginPage({ onLogin, onBack }) {
           <a href="#" className="text-sm text-gray-600">Features</a>
           <a href="#" className="text-sm text-gray-600">About</a>
           <a href="#" className="text-sm text-gray-600">Help</a>
-          <span className="text-sm font-semibold text-[#2d7a5e] border-b border-[#2d7a5e]">Preview</span>
+          <span className="text-sm font-semibold text-[#8b7a6a] border-b border-[6b5f54]">Preview</span>
         </div>
       </nav>
 
@@ -29,13 +29,13 @@ export default function LoginPage({ onLogin, onBack }) {
         {/* Left */}
         <div className="flex-1 pt-4">
           <div className="inline-flex items-center gap-2 bg-white border border-gray-200 text-xs text-gray-600 px-4 py-1.5 rounded-full mb-6">
-            <span className="w-1.5 h-1.5 bg-[#2d7a5e] rounded-full" />
+            <span className="w-1.5 h-1.5 bg-[#8b7a6a] rounded-full" />
             A.Y. 2025–2026 · 1st Semester is open
           </div>
           <h1 className="text-5xl font-bold text-gray-900 leading-tight mb-2">
             Your calm,<br />modern
           </h1>
-          <div className="bg-gradient-to-r from-[#2d7a5e] to-[#4aab87] h-12 rounded-lg mb-5" />
+          <div className="bg-gradient-to-r from-[#8b7a6a] to-[#a89478] h-12 rounded-lg mb-5" />
           <p className="text-gray-500 text-base mb-8">
             Enrollment, grades, attendance, and learning —<br />
             quietly organized in one place, so you can focus<br />
@@ -79,7 +79,7 @@ export default function LoginPage({ onLogin, onBack }) {
             <div>
               <div className="flex items-center justify-between mb-1.5">
                 <label className="text-xs font-semibold text-gray-600">Password</label>
-                <button className="text-xs text-[#2d7a5e] font-medium">Forgot?</button>
+                <button className="text-xs text-[#6b5f54] font-medium">Forgot?</button>
               </div>
               <div className="flex items-center gap-2 border border-gray-200 rounded-lg px-3 py-2.5 focus-within:border-[#2d7a5e] transition-colors">
                 <span className="text-gray-400 text-sm">🔒</span>
@@ -95,7 +95,7 @@ export default function LoginPage({ onLogin, onBack }) {
             <label className="flex items-center gap-2 cursor-pointer">
               <div
                 onClick={() => setKeep(!keep)}
-                className={`w-4 h-4 rounded flex items-center justify-center transition-colors ${keep ? "bg-[#2d7a5e]" : "border border-gray-300"}`}
+                className={`w-4 h-4 rounded flex items-center justify-center transition-colors ${keep ? "bg-[#8b7a6a]" : "border border-gray-300"}`}
               >
                 {keep && <span className="text-white text-xs">✓</span>}
               </div>
@@ -104,7 +104,7 @@ export default function LoginPage({ onLogin, onBack }) {
 
             <button
               onClick={onLogin}
-              className="w-full bg-[#2d7a5e] text-white py-3 rounded-xl font-medium text-sm hover:bg-[#235f49] transition-colors flex items-center justify-center gap-2"
+              className="w-full bg-[#a89478] text-white py-3 rounded-xl font-medium text-sm hover:bg-[#8b7a6a] transition-colors flex items-center justify-center gap-2"
             >
               Sign in to portal →
             </button>
@@ -120,7 +120,7 @@ export default function LoginPage({ onLogin, onBack }) {
             </button>
             <p className="text-center text-sm text-gray-400">
               New here?{" "}
-              <button className="text-[#2d7a5e] font-medium hover:underline">Request an account</button>
+              <button className="text-[#6b5f54] font-medium hover:underline">Request an account</button>
             </p>
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function LoginPage({ onLogin, onBack }) {
 
       {/* Footer */}
       <footer className="border-t border-gray-100 px-10 py-5 mt-16 flex items-center justify-between text-xs text-gray-400">
-        <span>© 2026 Verdant Student Portal · Calm by design.</span>
+        <span>© 2026 SILID LMS Student Portal</span>
         <span>Built for school project · React · Spring Boot ready</span>
       </footer>
     </div>

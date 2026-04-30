@@ -4,9 +4,9 @@ export default function LandingPage({ onLogin }) {
       {/* Nav */}
       <nav className="flex items-center justify-between px-10 py-4 bg-[#f8f8f5]">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-[#2d7a5e] rounded-lg flex items-center justify-center text-white text-sm">🎓</div>
+          <div className="w-8 h-8 bg-[#8b7a6a] rounded-lg flex items-center justify-center text-white text-sm">🎓</div>
           <div>
-            <div className="font-bold text-gray-900 text-sm leading-tight">Verdant</div>
+            <div className="font-bold text-gray-900 text-sm leading-tight">SILID LMS</div>
             <div className="text-gray-400 text-xs">Student Portal</div>
           </div>
         </div>
@@ -14,7 +14,7 @@ export default function LandingPage({ onLogin }) {
           <a href="#" className="text-sm text-gray-600 hover:text-gray-900">Features</a>
           <a href="#" className="text-sm text-gray-600 hover:text-gray-900">About</a>
           <a href="#" className="text-sm text-gray-600 hover:text-gray-900">Contact</a>
-          <button onClick={onLogin} className="bg-[#2d7a5e] text-white text-sm px-5 py-2 rounded-full hover:bg-[#235f49] transition-colors flex items-center gap-1">
+          <button onClick={onLogin} className="bg-[#8b7a6a] text-white text-sm px-5 py-2 rounded-full hover:bg-[#6b5f54] transition-colors flex items-center gap-1">
             Login →
           </button>
         </div>
@@ -23,18 +23,18 @@ export default function LandingPage({ onLogin }) {
       {/* Hero */}
       <section className="max-w-3xl mx-auto text-center pt-16 pb-10 px-6">
         <div className="inline-flex items-center gap-2 bg-white border border-gray-200 text-xs text-gray-600 px-4 py-1.5 rounded-full mb-8">
-          <span className="w-1.5 h-1.5 bg-[#2d7a5e] rounded-full" />
+          <span className="w-1.5 h-1.5 bg-[#8b7a6a] rounded-full" />
           A.Y. 2025–2026 · 1st Semester is open
         </div>
         <h1 className="text-5xl font-bold text-gray-900 leading-tight mb-2">
           A calmer way to handle
         </h1>
-        <div className="bg-gradient-to-r from-[#2d7a5e] to-[#4aab87] h-14 rounded-lg mb-6" />
+        <div className="bg-gradient-to-r from-[#8b7a6a] to-[#a89478] h-14 rounded-lg mb-6" />
         <p className="text-gray-500 text-lg max-w-xl mx-auto mb-8">
-          Verdant brings enrollment, grades, attendance, and learning into one quiet, modern portal — built for students, easy on the eyes.
+          SILID LMS brings enrollment, grades, attendance, and learning into one quiet, modern portal — built for students, easy on the eyes.
         </p>
         <div className="flex items-center justify-center gap-4">
-          <button onClick={onLogin} className="bg-[#2d7a5e] text-white px-6 py-3 rounded-full font-medium hover:bg-[#235f49] transition-colors flex items-center gap-2">
+          <button onClick={onLogin} className="bg-[#a89478] text-white px-6 py-3 rounded-full font-medium hover:bg-[#8b7a6a] transition-colors flex items-center gap-2">
             Login to portal →
           </button>
           <button className="text-gray-700 font-medium px-6 py-3 hover:text-gray-900 transition-colors">
@@ -61,7 +61,7 @@ export default function LandingPage({ onLogin }) {
       <section className="bg-white py-16 px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
-            <p className="text-xs font-semibold tracking-widest text-[#2d7a5e] uppercase mb-2">EVERYTHING IN ONE PORTAL</p>
+            <p className="text-xs font-semibold tracking-widest text-[#8b7a6a] uppercase mb-2">EVERYTHING IN ONE PORTAL</p>
             <h2 className="text-4xl font-bold text-gray-900">Built around your week.</h2>
           </div>
           <div className="grid grid-cols-4 gap-4">
@@ -90,7 +90,7 @@ export default function LandingPage({ onLogin }) {
             <div className="flex-1">
               <h2 className="text-3xl font-bold text-gray-900 mb-3">Designed for focus, not friction.</h2>
               <p className="text-gray-500 mb-6">A school project portal that students actually enjoy opening — soft palette, clear hierarchy, and zero noise.</p>
-              <button onClick={onLogin} className="bg-[#2d7a5e] text-white px-6 py-3 rounded-full font-medium hover:bg-[#235f49] transition-colors inline-flex items-center gap-2">
+              <button onClick={onLogin} className="bg-[#8b7a6a] text-white px-6 py-3 rounded-full font-medium hover:bg-[#235f49] transition-colors inline-flex items-center gap-2">
                 Sign in to continue →
               </button>
             </div>

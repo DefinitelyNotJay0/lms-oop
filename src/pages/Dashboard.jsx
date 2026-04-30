@@ -37,8 +37,8 @@ export default function Dashboard({ navigate }) {
     <div className="space-y-6">
       {/* Greeting */}
       <div>
-        <h1 className="text-4xl font-bold text-gray-900">Good morning, Maya.</h1>
-        <p className="text-gray-400 mt-1">BS Computer Science · 3rd Year · 1st Semester · A.Y. 2025–2026</p>
+        <h1 className="text-4xl font-bold text-gray-900">Good morning, Cyruz.</h1>
+        <p className="text-gray-400 mt-1">BS Information System · 2nd Year · 2nd Semester · A.Y. 2025–2026</p>
       </div>
 
       {/* Stats */}
